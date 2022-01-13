@@ -1,0 +1,44 @@
+{
+  "name": "nuxt-tailwindcss",
+  "version": "1.0.0",
+  "description": "Nuxt.js example with TailwindCSS module (JIT activated).",
+  "author": "Atinux",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/firebase": "^8.0.0",
+    "@nuxtjs/tailwindcss": "^4.0.0",
+    "axios": "^0.23.0",
+    "dotenv": "^10.0.0",
+    "firebase": "^9.3.0",
+    "nuxt": "^2.15.8",
+    "nuxt-vuex-localstorage": "^1.3.0",
+    "postcss": "^8.2.8",
+    "time-difference-js": "^1.0.1",
+    "vue-js-modal": "^2.0.1",
+    "vue-multiselect": "^2.1.6",
+    "vue-simple-accordion": "^0.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "keywords": [
+    "tailwindcss",
+    "nuxt",
+    "nuxt-module"
+  ],
+  "nuxt": {
+    "port": 8080
+  }
+}
